@@ -1,0 +1,95 @@
+body {
+    height: 92vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, #876, #678, #098);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.855);
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    filter: drop-shadow(10px 10px 5px #000);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus {
+    box-shadow: none;
+    background-color: #e3e3e3;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+button:active {
+    background: #00a727c9;
+    box-shadow: inset 5px 5px 10px 3px #000;
+}
+.spn {
+    filter: drop-shadow(5px 5px 2px #000);
+}
+
+#filterClub {
+    width: 97%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.player span {
+    display: flex;
+    align-items: center;
+}
+
+.player button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player button:hover {
+    background-color: #0056b3;
+}

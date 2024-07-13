@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Football Player Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Football Player Registration</h1>
+        <form id="playerForm">
+            <label for="name">Player Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="club">Club:</label>
+            <input type="text" id="club" name="club" required>
+            
+            <button type="submit"><span class="spn">Register Player</span></button>
+        </form>
+
+        <h2>Players List</h2>
+        <label for="filterClub">Filter by Club:</label>
+        <input type="text" id="filterClub" placeholder="Enter club name">
+        
+        <div id="playersList"></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
